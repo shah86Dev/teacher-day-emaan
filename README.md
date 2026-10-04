@@ -1,32 +1,22 @@
-# Teacher's Day Greeting — Next.js
+# Teachers' Day Card for Miss Rida
 
-A modern, animated Teacher's Day greeting web app for Imaan Fatima, Class 1-B, Allied School Surjani Campus.
+An animated Teachers' Day card from Emaan Fatima (Class 1-B, Allied School, Surjani Campus) to her teacher, Miss Rida.
 
-## Teacher name
+**Open the card:** https://miss-rida.vercel.app/
 
-The greeting is addressed to Ma’am Rida. To change it, edit `app/letter/page.tsx`:
+![QR code to open the card](public/qr-code.png)
 
-```ts
-const TEACHER_NAME = "Ma’am Rida";
-```
+## What's inside
+- An envelope that opens into a three-page school exercise book
+- A handwritten thank-you letter, a "What you taught me" page with teacher's ticks, and a poem
+- Swipe left or tap a page to turn it
+- Music that changes with each part of the card
+- Chalk-star confetti, a gold "Best Teacher" star and a share panel with a QR code
 
-The name also appears in the home-page intro (`app/page.tsx`), the thank-you card
-(`app/thank-you/page.tsx`) and the page title (`app/layout.tsx`).
-
-## Run
+## How it's built
+The card is one self-contained file, `public/card.html`. `next.config.ts` serves it at the site root, so Vercel deploys it with the normal Next.js settings.
 
 ```bash
 npm install
 npm run dev
 ```
-
-Then open http://localhost:3000.
-
-## Stack
-
-- Next.js App Router
-- TypeScript
-- Motion for React (`motion/react`)
-- CSS responsive UI
-
-No external image assets are required for the starter version.
