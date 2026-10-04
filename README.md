@@ -4,10 +4,10 @@ A modern, animated Teacher's Day greeting web app for Imaan Fatima, Class 1-B, A
 
 ## Teacher name
 
-The greeting is addressed to Ma’am Mahnoor Shakeel. To change it, edit `app/letter/page.tsx`:
+The greeting is addressed to Ma’am Rida. To change it, edit `app/letter/page.tsx`:
 
 ```ts
-const TEACHER_NAME = "Ma’am Mahnoor Shakeel";
+const TEACHER_NAME = "Ma’am Rida";
 ```
 
 The name also appears in the home-page intro (`app/page.tsx`), the thank-you card

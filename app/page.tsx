@@ -36,8 +36,7 @@ export default function Home() {
             Happy <span>Teacher&apos;s Day</span>
           </h1>
           <p className="intro">
-            A special message for Ma’am Mahnoor Shakeel, the wonderful teacher who makes
-            every school day brighter.
+            A special message for Ma’am Rida, the wonderful teacher who makes every school day brighter.
           </p>
           <Link href="/letter" className="open-button" onClick={handleBegin}>
             <motion.span

@@ -68,7 +68,7 @@ export default function ThankYouPage() {
           </motion.div>
           <h1 className="thankyou-title">Happy Teacher&apos;s Day!</h1>
           <p className="thankyou-text">
-            Ma’am Mahnoor Shakeel, thank you for being the kind of teacher students remember forever.
+            Ma’am Rida, thank you for being the kind of teacher students remember forever.
           </p>
           <div className="message-sign">
             With all my heart,

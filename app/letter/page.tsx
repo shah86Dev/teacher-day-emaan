@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import Particles, { type ParticleSpec } from "../components/Particles";
 import { useSound } from "../components/SoundProvider";
 
-const TEACHER_NAME = "Ma’am Mahnoor Shakeel";
+const TEACHER_NAME = "Ma’am Rida";
 
 const LETTER_PARTICLES: readonly ParticleSpec[] = [
   ["💌", "10%", "10%", 0],

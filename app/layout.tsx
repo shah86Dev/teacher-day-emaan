@@ -6,7 +6,7 @@ import ProgressNav from "./components/ProgressNav";
 import PageTransition from "./components/PageTransition";
 
 export const metadata: Metadata = {
-  title: "Happy Teacher's Day, Ma’am Mahnoor Shakeel | Class 1-B",
+  title: "Happy Teacher's Day, Ma’am Rida | Class 1-B",
   description: "A special animated Teacher's Day greeting from Imaan Fatima."
 };
 
